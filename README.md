@@ -3,9 +3,9 @@ Base container containing dependencies that do not frequently change for the Tra
 
 Build commands:
 
-Before build the Docker: `sudo docker image rm tractoflow:docker`
+Before build the Docker: `sudo docker image rm singularity-base-tractoflow:docker`
 
-To build the Docker: `sudo docker build . -t "tractoflow:docker"`
+To build the Docker: `sudo docker build . -t "singularity-base-tractoflow:docker"`
 
 Dependencies versions:
 
